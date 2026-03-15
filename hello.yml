@@ -1,0 +1,10 @@
+name: hellow world
+
+on:[push]
+
+jobs:
+  Hello:
+    runs-on:ubuntur-latest
+    steps:
+      - name: Hello World!
+        run: echo "Hello World!" 
